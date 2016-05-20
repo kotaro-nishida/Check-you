@@ -1,8 +1,8 @@
-[0m[[0minfo[0m] [0mcontrollers.ChecksControllerTest[0m
-[0m[[0minfo[0m] [0m[32m+[0m testIndexIsOk[0m
-[0m[[0minfo[0m] [0m[32m+[0m testRecentPage2ShouldContainF[0m
+[0m[[0minfo[0m] [0mcontrollers.ChecksControllerIntegrationTest[0m
+[0m[[0minfo[0m] [0m[32m+[0m testResultShouldWrongParamToName[0m
+[0m[[0minfo[0m] [0m[32m+[0m testResultShouldSuccessParamToName[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0m[0m
-[0m[[0minfo[0m] [0mTotal for test controllers.ChecksControllerTest[0m
-[0m[[0minfo[0m] [0m[34mFinished in 0.012 seconds[0m[0m
+[0m[[0minfo[0m] [0mTotal for test controllers.ChecksControllerIntegrationTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.007 seconds[0m[0m
 [0m[[0minfo[0m] [0m[34m2 tests, 0 failures, 0 errors[0m[0m

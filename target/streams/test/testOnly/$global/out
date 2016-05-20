@@ -1,12 +1,12 @@
 [0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
-[0m[[0mdebug[0m] [0mTest controllers.[33mChecksControllerTest[0m.[36mtestIndexIsOk[0m started[0m
-[0m[[0mdebug[0m] [0mTest controllers.[33mChecksControllerTest[0m.[36mtestIndexIsOk[0m finished[0m
-[0m[[0mdebug[0m] [0mTest controllers.[33mChecksControllerTest[0m.[36mtestRecentPage2ShouldContainF[0m started[0m
-[0m[[0mdebug[0m] [0mTest controllers.[33mChecksControllerTest[0m.[36mtestRecentPage2ShouldContainF[0m finished[0m
-[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 2 total, 3.7s[0m[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mChecksControllerIntegrationTest[0m.[36mtestResultShouldWrongParamToName[0m started[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mChecksControllerIntegrationTest[0m.[36mtestResultShouldWrongParamToName[0m finished[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mChecksControllerIntegrationTest[0m.[36mtestResultShouldSuccessParamToName[0m started[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mChecksControllerIntegrationTest[0m.[36mtestResultShouldSuccessParamToName[0m finished[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 2 total, 9.598s[0m[0m
 [0m[[0mdebug[0m] [0mFramework implementation 'org.specs2.runner.Specs2Framework' not present.[0m
 [0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
 [0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
 [0m[[0minfo[0m] [0mPassed: Total 2, Failed 0, Errors 0, Passed 2[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
-[0m[[0mdebug[0m] [0m	controllers.ChecksControllerTest[0m
+[0m[[0mdebug[0m] [0m	controllers.ChecksControllerIntegrationTest[0m

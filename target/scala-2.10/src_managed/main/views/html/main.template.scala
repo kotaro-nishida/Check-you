@@ -37,33 +37,32 @@ Seq[Any](format.raw/*1.32*/("""
         <!-- Bootstrap CSS -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
         <!-- Bootstrap javascript -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
-        <link rel="shortcut icon" type="image/png" href=""""),_display_(Seq[Any](/*15.59*/routes/*15.65*/.Assets.at("images/favicon.png"))),format.raw/*15.97*/("""">
+
+        <link rel="shortcut icon" type="image/png" href=""""),_display_(Seq[Any](/*14.59*/routes/*14.65*/.Assets.at("images/favicon.png"))),format.raw/*14.97*/("""">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" media="screen" href=""""),_display_(Seq[Any](/*17.54*/routes/*17.60*/.Assets.at("stylesheets/main.css"))),format.raw/*17.94*/("""">
+        <link rel="stylesheet" media="screen" href=""""),_display_(Seq[Any](/*16.54*/routes/*16.60*/.Assets.at("stylesheets/main.css"))),format.raw/*16.94*/("""">
     </head>
     <body>
-        """),format.raw/*20.27*/("""
-        """),_display_(Seq[Any](/*21.10*/tag/*21.13*/.menu())),format.raw/*21.20*/("""
+        """),format.raw/*19.27*/("""
+        """),_display_(Seq[Any](/*20.10*/tag/*20.13*/.menu())),format.raw/*20.20*/("""
 
-        """),format.raw/*23.25*/("""
-        """),_display_(Seq[Any](/*24.10*/tag/*24.13*/.logo())),format.raw/*24.20*/("""
+        """),format.raw/*22.25*/("""
+        """),_display_(Seq[Any](/*23.10*/tag/*23.13*/.logo())),format.raw/*23.20*/("""
 
         <div class="container">
             <div class="row">
-                """),format.raw/*28.41*/("""
-                """),_display_(Seq[Any](/*29.18*/tag/*29.21*/.flashMessage())),format.raw/*29.36*/("""
+                """),format.raw/*27.41*/("""
+                """),_display_(Seq[Any](/*28.18*/tag/*28.21*/.flashMessage())),format.raw/*28.36*/("""
 
                 <div class="content">
-                    """),format.raw/*32.38*/("""
-                    """),_display_(Seq[Any](/*33.22*/content)),format.raw/*33.29*/("""
+                    """),format.raw/*31.38*/("""
+                    """),_display_(Seq[Any](/*32.22*/content)),format.raw/*32.29*/("""
                 </div>
             </div>
         </div>
-        """),format.raw/*37.27*/("""
-        """),_display_(Seq[Any](/*38.10*/tag/*38.13*/.footer())),format.raw/*38.22*/("""
+        """),format.raw/*36.27*/("""
+        """),_display_(Seq[Any](/*37.10*/tag/*37.13*/.footer())),format.raw/*37.22*/("""
     </body>
 </html>"""))}
     }
@@ -77,11 +76,11 @@ Seq[Any](format.raw/*1.32*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed May 18 11:02:30 JST 2016
+                    DATE: Fri May 20 19:01:18 JST 2016
                     SOURCE: /Users/koutaroh.nishida/DiagnosisApp/app/views/main.scala.html
-                    HASH: d2c8a978a156ec46e960941931091337d09dc7e5
-                    MATRIX: 778->1|902->31|990->84|1016->89|1508->545|1523->551|1577->583|1748->718|1763->724|1819->758|1881->810|1927->820|1939->823|1968->830|2006->856|2052->866|2064->869|2093->876|2201->980|2255->998|2267->1001|2304->1016|2392->1093|2450->1115|2479->1122|2573->1206|2619->1216|2631->1219|2662->1228
-                    LINES: 26->1|29->1|35->7|35->7|43->15|43->15|43->15|45->17|45->17|45->17|48->20|49->21|49->21|49->21|51->23|52->24|52->24|52->24|56->28|57->29|57->29|57->29|60->32|61->33|61->33|65->37|66->38|66->38|66->38
+                    HASH: d0896f5d5f76992b558e003496f68c1ddd56c4f0
+                    MATRIX: 778->1|902->31|990->84|1016->89|1311->348|1326->354|1380->386|1551->521|1566->527|1622->561|1684->613|1730->623|1742->626|1771->633|1809->659|1855->669|1867->672|1896->679|2004->783|2058->801|2070->804|2107->819|2195->896|2253->918|2282->925|2376->1009|2422->1019|2434->1022|2465->1031
+                    LINES: 26->1|29->1|35->7|35->7|42->14|42->14|42->14|44->16|44->16|44->16|47->19|48->20|48->20|48->20|50->22|51->23|51->23|51->23|55->27|56->28|56->28|56->28|59->31|60->32|60->32|64->36|65->37|65->37|65->37
                     -- GENERATED --
                 */
             
