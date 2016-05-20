@@ -15,6 +15,15 @@ public class IntegrationTest {
      * add your integration test here
      * in this example we just check if the welcome page is being shown
      */
+
+	/*
+	 * テスト用サーバーを使用
+	 * フェイクアプリケーションを実行
+	 * テストブラウザにアクセスしてコンテンツの内容をチェック
+	 *
+	 * renning(TestSererインスタンス,WebDriver,実行後の処理をするコールバク用のインスタンス)
+	 * とりあえず、invokuメソッド内のテストをかけば動く
+	 */
     @Test
     public void test() {
         running(testServer(3333, fakeApplication(inMemoryDatabase())), HTMLUNIT, new Callback<TestBrowser>() {
@@ -24,5 +33,4 @@ public class IntegrationTest {
             }
         });
     }
-
 }

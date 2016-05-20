@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0m:: delivering :: diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT :: 1.0-SNAPSHOT :: integration :: Fri May 20 13:33:18 JST 2016[0m
+[0m[[0mdebug[0m] [0m	options = status=integration pubdate=Fri May 20 13:33:18 JST 2016 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0minfo[0m] [0m	delivering ivy file to /Users/koutaroh.nishida/DiagnosisApp/target/scala-2.10/ivy-1.0-SNAPSHOT.xml[0m
+[0m[[0mdebug[0m] [0m	deliver done (29ms)[0m

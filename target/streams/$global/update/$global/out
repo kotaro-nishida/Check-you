@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69c8610e[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@97a603d[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -768,6 +768,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.6->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.10;2.2.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#filters-helpers_2.10;2.2.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#filters-helpers_2.10;2.2.6 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#filters-helpers_2.10;2.2.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#filters-helpers_2.10;2.2.6[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#filters-helpers_2.10;2.2.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
@@ -1205,6 +1216,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.6->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.10;2.2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
@@ -1643,6 +1660,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.6->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.10;2.2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#play-test_2.10;2.2.6 [test->default(compile)][0m
@@ -3020,6 +3043,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.6->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.10;2.2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT [optional][0m
@@ -3460,6 +3489,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.6->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.10;2.2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT [optional][0m
@@ -3900,6 +3935,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.6->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.10;2.2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#filters-helpers_2.10;2.2.6->org.scala-lang#scala-library;2.10.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT->com.typesafe.play#play-test_2.10;2.2.6 [test->default(compile)][0m
@@ -5102,6 +5143,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-jdbc_2.10;2.2.6!play-java-jdbc_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-ebean_2.10;2.2.6!play-java-ebean_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-cache_2.10;2.2.6!play-cache_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#filters-helpers_2.10;2.2.6!filters-helpers_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play_2.10;2.2.6!play_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java_2.10;2.2.6!play-java_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.10;2.2.6!play-jdbc_2.10.jar[0m
@@ -5223,7 +5265,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5291ms :: artifacts dl 73ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3959ms :: artifacts dl 93ms[0m
 [0m[[0mdebug[0m] [0m	report for diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT compile produced in /Users/koutaroh.nishida/DiagnosisApp/target/resolution-cache/reports/diagnosisapp-diagnosisapp_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT runtime produced in /Users/koutaroh.nishida/DiagnosisApp/target/resolution-cache/reports/diagnosisapp-diagnosisapp_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT test produced in /Users/koutaroh.nishida/DiagnosisApp/target/resolution-cache/reports/diagnosisapp-diagnosisapp_2.10-test.xml[0m
@@ -5237,5 +5279,5 @@
 [0m[[0mdebug[0m] [0m	report for diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT docs produced in /Users/koutaroh.nishida/DiagnosisApp/target/resolution-cache/reports/diagnosisapp-diagnosisapp_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT pom produced in /Users/koutaroh.nishida/DiagnosisApp/target/resolution-cache/reports/diagnosisapp-diagnosisapp_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for diagnosisapp#diagnosisapp_2.10;1.0-SNAPSHOT scala-tool produced in /Users/koutaroh.nishida/DiagnosisApp/target/resolution-cache/reports/diagnosisapp-diagnosisapp_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (5291ms resolve - 73ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (3959ms resolve - 93ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

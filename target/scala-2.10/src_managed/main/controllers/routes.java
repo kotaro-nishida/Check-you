@@ -1,6 +1,6 @@
 // @SOURCE:/Users/koutaroh.nishida/DiagnosisApp/conf/routes
-// @HASH:32a7c0cc1e11552a99c5b1d02169bfa6f8207a71
-// @DATE:Wed May 18 15:17:59 JST 2016
+// @HASH:0e3eb6441a856a8fd63a8e04e3e928d4a36396c5
+// @DATE:Fri May 20 13:34:11 JST 2016
 
 package controllers;
 

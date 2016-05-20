@@ -1,0 +1,7 @@
+#Successful Tests
+#Fri May 20 18:25:44 JST 2016
+utils.OptionUtilTest=1463734409211
+controllers.ChecksControllerTest=1463736344491
+models.request.Check.ResultPostRequestTest=1463734408786
+utils.PageUtilTest=1463734399705
+models.service.Check.CheckModelServiceTest=1463734409200

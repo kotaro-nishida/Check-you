@@ -4,5 +4,7 @@
 [0m[[0mdebug[0m] [0m	(/Users/koutaroh.nishida/DiagnosisApp/conf/application_setting.conf,/Users/koutaroh.nishida/DiagnosisApp/target/scala-2.10/classes/application_setting.conf)[0m
 [0m[[0mdebug[0m] [0m	(/Users/koutaroh.nishida/DiagnosisApp/conf/evolutions,/Users/koutaroh.nishida/DiagnosisApp/target/scala-2.10/classes/evolutions)[0m
 [0m[[0mdebug[0m] [0m	(/Users/koutaroh.nishida/DiagnosisApp/conf/routes,/Users/koutaroh.nishida/DiagnosisApp/target/scala-2.10/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/Users/koutaroh.nishida/DiagnosisApp/conf/testScheme,/Users/koutaroh.nishida/DiagnosisApp/target/scala-2.10/classes/testScheme)[0m
 [0m[[0mdebug[0m] [0m	(/Users/koutaroh.nishida/DiagnosisApp/conf/evolutions/default,/Users/koutaroh.nishida/DiagnosisApp/target/scala-2.10/classes/evolutions/default)[0m
 [0m[[0mdebug[0m] [0m	(/Users/koutaroh.nishida/DiagnosisApp/conf/evolutions/default/1.sql,/Users/koutaroh.nishida/DiagnosisApp/target/scala-2.10/classes/evolutions/default/1.sql)[0m
+[0m[[0mdebug[0m] [0m	(/Users/koutaroh.nishida/DiagnosisApp/conf/testScheme/1.sql,/Users/koutaroh.nishida/DiagnosisApp/target/scala-2.10/classes/testScheme/1.sql)[0m

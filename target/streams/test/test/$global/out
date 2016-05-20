@@ -1,0 +1,164 @@
+[0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mPageUtilTest[0m.[36mtestRightPageTo1Should0[0m started[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mPageUtilTest[0m.[36mtestRightPageTo1Should0[0m finished[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mPageUtilTest[0m.[36mtestRightPageTo2Should1[0m started[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mPageUtilTest[0m.[36mtestRightPageTo2Should1[0m finished[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mPageUtilTest[0m.[36mtestRightPageTo0Should0[0m started[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mPageUtilTest[0m.[36mtestRightPageTo0Should0[0m finished[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mPageUtilTest[0m.[36mtestRightPageTonullShould0[0m started[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mPageUtilTest[0m.[36mtestRightPageTonullShould0[0m finished[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mPageUtilTest[0m.[36mtestRightPageToMinus1Should0[0m started[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mPageUtilTest[0m.[36mtestRightPageToMinus1Should0[0m finished[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 5 total, 0.036s[0m[0m
+[0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
+[0m[[0mdebug[0m] [0mTest [33mIntegrationTest[0m.[36mtest[0m started[0m
+[0m[[31merror[0m] [0mTest [33mIntegrationTest[0m.[31mtest[0m failed: org.openqa.selenium.[31mWebDriverException[0m: com.gargoylesoftware.htmlunit.ScriptException: TypeError: Cannot find function addEventListener in object [object HTMLDocument]. (https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js#3)[0m
+[0m[[31merror[0m] [0mBuild info: version: '2.32.0', revision: '6c40c187d01409a5dc3b7f8251859150c8af0bcb', time: '2013-04-09 10:39:28'[0m
+[0m[[31merror[0m] [0mSystem info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.4', java.version: '1.8.0_77'[0m
+[0m[[31merror[0m] [0mDriver info: driver.version: HtmlUnitDriver[0m
+[0m[[31merror[0m] [0m    at org.openqa.selenium.htmlunit.HtmlUnitDriver.get(HtmlUnitDriver.java:367)[0m
+[0m[[31merror[0m] [0m    at org.openqa.selenium.htmlunit.HtmlUnitDriver.get(HtmlUnitDriver.java:346)[0m
+[0m[[31merror[0m] [0m    at org.fluentlenium.core.Fluent.goTo(Fluent.java:228)[0m
+[0m[[31merror[0m] [0m    at IntegrationTest$1.invoke([35mIntegrationTest.java[0m:[33m31[0m)[0m
+[0m[[31merror[0m] [0m    at IntegrationTest$1.invoke([35mIntegrationTest.java[0m:[33m29[0m)[0m
+[0m[[31merror[0m] [0m    at play.test.Helpers.running(Helpers.java:433)[0m
+[0m[[31merror[0m] [0m    at IntegrationTest.test([35mIntegrationTest.java[0m:[33m29[0m)[0m
+[0m[[31merror[0m] [0m    ...[0m
+[0m[[31merror[0m] [0mCaused by: com.gargoylesoftware.htmlunit.ScriptException: TypeError: Cannot find function addEventListener in object [object HTMLDocument]. (https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js#3)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:669)[0m
+[0m[[31merror[0m] [0m    at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:601)[0m
+[0m[[31merror[0m] [0m    at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:507)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.execute(JavaScriptEngine.java:555)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.html.HtmlPage.loadExternalJavaScriptFile(HtmlPage.java:1082)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.html.HtmlScript.executeScriptIfNeeded(HtmlScript.java:399)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.html.HtmlScript$3.execute(HtmlScript.java:260)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.html.HtmlScript.onAllChildrenAddedToPage(HtmlScript.java:276)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder.endElement(HTMLParser.java:676)[0m
+[0m[[31merror[0m] [0m    at org.apache.xerces.parsers.AbstractSAXParser.endElement(Unknown Source)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder.endElement(HTMLParser.java:635)[0m
+[0m[[31merror[0m] [0m    at org.cyberneko.html.HTMLTagBalancer.callEndElement(HTMLTagBalancer.java:1170)[0m
+[0m[[31merror[0m] [0m    at org.cyberneko.html.HTMLTagBalancer.endElement(HTMLTagBalancer.java:1072)[0m
+[0m[[31merror[0m] [0m    at org.cyberneko.html.filters.DefaultFilter.endElement(DefaultFilter.java:206)[0m
+[0m[[31merror[0m] [0m    at org.cyberneko.html.filters.NamespaceBinder.endElement(NamespaceBinder.java:330)[0m
+[0m[[31merror[0m] [0m    at org.cyberneko.html.HTMLScanner$ContentScanner.scanEndElement(HTMLScanner.java:3074)[0m
+[0m[[31merror[0m] [0m    at org.cyberneko.html.HTMLScanner$ContentScanner.scan(HTMLScanner.java:2041)[0m
+[0m[[31merror[0m] [0m    at org.cyberneko.html.HTMLScanner.scanDocument(HTMLScanner.java:918)[0m
+[0m[[31merror[0m] [0m    at org.cyberneko.html.HTMLConfiguration.parse(HTMLConfiguration.java:499)[0m
+[0m[[31merror[0m] [0m    at org.cyberneko.html.HTMLConfiguration.parse(HTMLConfiguration.java:452)[0m
+[0m[[31merror[0m] [0m    at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder.parse(HTMLParser.java:892)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.html.HTMLParser.parse(HTMLParser.java:241)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.html.HTMLParser.parseHtml(HTMLParser.java:187)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.DefaultPageCreator.createHtmlPage(DefaultPageCreator.java:268)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.DefaultPageCreator.createPage(DefaultPageCreator.java:156)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseInto(WebClient.java:434)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:309)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:374)[0m
+[0m[[31merror[0m] [0m    at org.openqa.selenium.htmlunit.HtmlUnitDriver.get(HtmlUnitDriver.java:359)[0m
+[0m[[31merror[0m] [0m    ... 41 more[0m
+[0m[[31merror[0m] [0mCaused by: net.sourceforge.htmlunit.corejs.javascript.EcmaError: TypeError: Cannot find function addEventListener in object [object HTMLDocument]. (https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js#3)[0m
+[0m[[31merror[0m] [0m    at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3603)[0m
+[0m[[31merror[0m] [0m    at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3587)[0m
+[0m[[31merror[0m] [0m    at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.typeError(ScriptRuntime.java:3608)[0m
+[0m[[31merror[0m] [0m    at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.typeError2(ScriptRuntime.java:3624)[0m
+[0m[[31merror[0m] [0m    at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.notFunctionError(ScriptRuntime.java:3688)[0m
+[0m[[31merror[0m] [0m    at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.getPropFunctionAndThisHelper(ScriptRuntime.java:2207)[0m
+[0m[[31merror[0m] [0m    at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.getPropFunctionAndThis(ScriptRuntime.java:2189)[0m
+[0m[[31merror[0m] [0m    at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpretLoop(Interpreter.java:1333)[0m
+[0m[[31merror[0m] [0m    at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpret(Interpreter.java:798)[0m
+[0m[[31merror[0m] [0m    at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:105)[0m
+[0m[[31merror[0m] [0m    at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.doTopCall(ContextFactory.java:405)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.doTopCall(HtmlUnitContextFactory.java:275)[0m
+[0m[[31merror[0m] [0m    at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3031)[0m
+[0m[[31merror[0m] [0m    at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.exec(InterpretedFunction.java:115)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$3.doRun(JavaScriptEngine.java:546)[0m
+[0m[[31merror[0m] [0m    at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:654)[0m
+[0m[[31merror[0m] [0m    ... 70 more[0m
+[0m[[0mdebug[0m] [0mTest [33mIntegrationTest[0m.[36mtest[0m finished[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[31m1 failed[0m[34m, [0m[34m0 ignored[0m[34m, 1 total, 8.946s[0m[0m
+[0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36msimpleCheck[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36msimpleCheck[0m finished[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mrenderTemplate[0m started[0m
+[0m[[31merror[0m] [0mTest [33mApplicationTest[0m.[31mrenderTemplate[0m failed: java.lang.[31mRuntimeException[0m: There is no HTTP Context available from here.[0m
+[0m[[31merror[0m] [0m    at play.mvc.Http$Context.current(Http.java:31)[0m
+[0m[[31merror[0m] [0m    at play.mvc.Http$Context$Implicit.ctx(Http.java:197)[0m
+[0m[[31merror[0m] [0m    at play.core.j.PlayMagicForJava$.requestHeader(TemplateMagicForJava.scala:56)[0m
+[0m[[31merror[0m] [0m    at views.html.index$$anonfun$apply$1.apply(index.template.scala:39)[0m
+[0m[[31merror[0m] [0m    at views.html.index$$anonfun$apply$1.apply(index.template.scala:38)[0m
+[0m[[31merror[0m] [0m    at views.html.helper.form$.apply(form.template.scala:45)[0m
+[0m[[31merror[0m] [0m    at views.html.index$.apply(index.template.scala:38)[0m
+[0m[[31merror[0m] [0m    at views.html.index$.render(index.template.scala:54)[0m
+[0m[[31merror[0m] [0m    at views.html.index.render(index.template.scala)[0m
+[0m[[31merror[0m] [0m    at ApplicationTest.renderTemplate([35mApplicationTest.java[0m:[33m42[0m)[0m
+[0m[[31merror[0m] [0m    ...[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mrenderTemplate[0m finished[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[31m1 failed[0m[34m, [0m[34m0 ignored[0m[34m, 2 total, 0.007s[0m[0m
+[0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
+[0m[[0mdebug[0m] [0mTest models.request.Check.[33mResultPostRequestTest[0m.[36mtestValidotionToRightParamValue[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.request.Check.[33mResultPostRequestTest[0m.[36mtestValidotionToRightParamValue[0m finished[0m
+[0m[[0mdebug[0m] [0mTest models.request.Check.[33mResultPostRequestTest[0m.[36mtestValidotionToRightParamNoUnderscore[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.request.Check.[33mResultPostRequestTest[0m.[36mtestValidotionToRightParamNoUnderscore[0m finished[0m
+[0m[[0mdebug[0m] [0mTest models.request.Check.[33mResultPostRequestTest[0m.[36mtestValidationToWrongParamJs[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.request.Check.[33mResultPostRequestTest[0m.[36mtestValidationToWrongParamJs[0m finished[0m
+[0m[[0mdebug[0m] [0mTest models.request.Check.[33mResultPostRequestTest[0m.[36mtestValidationToWrongParamWithHyphen[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.request.Check.[33mResultPostRequestTest[0m.[36mtestValidationToWrongParamWithHyphen[0m finished[0m
+[0m[[0mdebug[0m] [0mTest models.request.Check.[33mResultPostRequestTest[0m.[36mtestValidotionToRightParam[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.request.Check.[33mResultPostRequestTest[0m.[36mtestValidotionToRightParam[0m finished[0m
+[0m[[0mdebug[0m] [0mTest models.request.Check.[33mResultPostRequestTest[0m.[36mtestValidotionToRightParamMix[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.request.Check.[33mResultPostRequestTest[0m.[36mtestValidotionToRightParamMix[0m finished[0m
+[0m[[0mdebug[0m] [0mTest models.request.Check.[33mResultPostRequestTest[0m.[36mtestValidationToWrongParamBan[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.request.Check.[33mResultPostRequestTest[0m.[36mtestValidationToWrongParamBan[0m finished[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 7 total, 0.047s[0m[0m
+[0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindByIdTo1ReturnSomeNotKey[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindByIdTo1ReturnSomeNotKey[0m finished[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindWithPage2ContainsNoPage[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindWithPage2ContainsNoPage[0m finished[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindWithPage1RecodeMaxPage1[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindWithPage1RecodeMaxPage1[0m finished[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindByIdTo1ReturnSomeNotSerch[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindByIdTo1ReturnSomeNotSerch[0m finished[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindByIdToSave[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindByIdToSave[0m finished[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindWithPage1Contains1And5[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindWithPage1Contains1And5[0m finished[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindWithPage0RecodeMaxPage0[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindWithPage0RecodeMaxPage0[0m finished[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindByIdTo1ReturnSome[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindByIdTo1ReturnSome[0m finished[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindWithPage6RecodeMaxPage2[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindWithPage6RecodeMaxPage2[0m finished[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindWithPage2Contains1Recod[0m started[0m
+[0m[[0mdebug[0m] [0mTest models.service.Check.[33mCheckModelServiceTest[0m.[36mtestFindWithPage2Contains1Recod[0m finished[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 10 total, 0.383s[0m[0m
+[0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mOptionUtilTest[0m.[36mtestApplyShouldNone[0m started[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mOptionUtilTest[0m.[36mtestApplyShouldNone[0m finished[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mOptionUtilTest[0m.[36mtestApplyShouldSome[0m started[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mOptionUtilTest[0m.[36mtestApplyShouldSome[0m finished[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mOptionUtilTest[0m.[36mtestApplyShouldNoneList[0m started[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mOptionUtilTest[0m.[36mtestApplyShouldNoneList[0m finished[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mOptionUtilTest[0m.[36mtestApplyShouldSomeList[0m started[0m
+[0m[[0mdebug[0m] [0mTest utils.[33mOptionUtilTest[0m.[36mtestApplyShouldSomeList[0m finished[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 4 total, 0.002s[0m[0m
+[0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mChecksControllerTest[0m.[36mtestIndexIsOk[0m started[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mChecksControllerTest[0m.[36mtestIndexIsOk[0m finished[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mChecksControllerTest[0m.[36mtestResultIdWithId[0m started[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mChecksControllerTest[0m.[36mtestResultIdWithId[0m finished[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 2 total, 0.244s[0m[0m
+[0m[[0mdebug[0m] [0mFramework implementation 'org.specs2.runner.Specs2Framework' not present.[0m
+[0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
+[0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
+[0m[[31merror[0m] [0mFailed: Total 31, Failed 2, Errors 0, Passed 29[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	utils.PageUtilTest[0m
+[0m[[0mdebug[0m] [0m	utils.OptionUtilTest[0m
+[0m[[0mdebug[0m] [0m	models.request.Check.ResultPostRequestTest[0m
+[0m[[0mdebug[0m] [0m	controllers.ChecksControllerTest[0m
+[0m[[0mdebug[0m] [0m	models.service.Check.CheckModelServiceTest[0m
+[0m[[31merror[0m] [0mFailed tests:[0m
+[0m[[31merror[0m] [0m	ApplicationTest[0m
+[0m[[31merror[0m] [0m	IntegrationTest[0m
+[0m[[31merror[0m] [0m(test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
